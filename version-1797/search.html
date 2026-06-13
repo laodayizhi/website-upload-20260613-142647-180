@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索影片-精品日韩剧</title>
+    <meta name="description" content="整合日韩免费视频资源，实现在线观看电影大片与热播剧集。本站内容涵盖高清影视作品，提供便捷的在线点播服务。">
+    <meta name="keywords" content="搜索,日韩免费视频资源,在线观看,电影大片,热播剧集,高清,影视作品,点播">
+    <meta property="og:title" content="搜索影片-精品日韩剧">
+    <meta property="og:description" content="整合日韩免费视频资源，实现在线观看电影大片与热播剧集。本站内容涵盖高清影视作品，提供便捷的在线点播服务。">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head><body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="site-logo" href="./index.html" aria-label="精品日韩剧 首页">
+                <span class="logo-mark">▶</span>
+                <span>精品日韩剧</span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                <a href="./index.html">首页</a>
+                <a href="./categories.html">分类</a>
+                <a href="./ranking.html">排行榜</a>
+                <a href="./movies/page-1.html">全部影片</a>
+                <a href="./search.html">搜索</a>
+            </nav>
+            <button class="mobile-menu-button" type="button" aria-label="打开导航" data-mobile-menu-toggle>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav class="mobile-nav" aria-label="移动端导航" data-mobile-menu>
+                <a href="./index.html">首页</a>
+                <a href="./categories.html">分类</a>
+                <a href="./ranking.html">排行榜</a>
+                <a href="./movies/page-1.html">全部影片</a>
+                <a href="./search.html">搜索</a>
+        </nav>
+    </header>
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <span>Search</span>
+                <h1>搜索与筛选</h1>
+                <p>输入片名、标签、年份、地区或类型，快速定位影片详情页。</p>
+            </div>
+        </section>
+        <section class="container content-section">
+            <div class="search-panel" data-search-page>
+                <input type="search" placeholder="例如：日本 爱情 2023" data-search-input>
+                <select data-search-region>
+                    <option value="">全部地区</option>
+                </select>
+                <select data-search-type>
+                    <option value="">全部类型</option>
+                </select>
+                <button type="button" data-search-reset>重置</button>
+            </div>
+            <div class="result-count" data-search-count>请输入关键词或选择筛选条件</div>
+            <div class="movie-grid movie-grid-all" data-search-results></div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <div class="footer-logo"><span class="logo-mark">▶</span><span>精品日韩剧</span></div>
+                <p>整合日韩免费视频资源，实现在线观看电影大片与热播剧集。本站内容涵盖高清影视作品，提供便捷的在线点播服务。</p>
+            </div>
+            <div>
+                <h3>影片分类</h3>
+                <ul>
+                    <li><a href="./category-rihan-jingxuan.html">日韩精选</a></li>
+                    <li><a href="./category-dianying-dapian.html">电影大片</a></li>
+                    <li><a href="./category-rebo-juji.html">热播剧集</a></li>
+                    <li><a href="./category-xuanyi-fanzui.html">悬疑犯罪</a></li>
+                    <li><a href="./category-dongzuo-maoxian.html">动作冒险</a></li>
+                    <li><a href="./category-aiqing-juqing.html">爱情剧情</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>站内导航</h3>
+                <ul>
+                    <li><a href="./index.html">首页</a></li>
+                    <li><a href="./categories.html">分类总览</a></li>
+                    <li><a href="./ranking.html">热门排行榜</a></li>
+                    <li><a href="./movies/page-1.html">全部影片</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>快速搜索</h3>
+                <form class="footer-search" action="./search.html" method="get">
+                    <input name="q" type="search" placeholder="搜索影片、类型、地区">
+                    <button type="submit">搜索</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">© 精品日韩剧 · 高清影视作品在线点播</div>
+    </footer>
+    <script defer src="./assets/js/movie-index.js"></script>
+    <script defer src="./assets/js/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
